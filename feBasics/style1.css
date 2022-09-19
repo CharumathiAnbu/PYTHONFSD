@@ -1,0 +1,38 @@
+.heading{
+    min-height: 4vh;
+    min-width: 5vh;
+    color: white;
+    width: fit-content;
+    background-color: blue;
+    padding: 1vh 2vw 1vh 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vh;
+    cursor: pointer;
+    margin: 2vh;
+  }
+
+  .heading:hover{
+    box-shadow: 5px 5px 10px black;
+    transition: box-shadow 0.5s;
+  }
+  
+  .align-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .button-layout{
+    min-height: 4vh;
+    min-width: 5vh;
+    width: fit-content;
+    color: white;
+    background-color: blue;
+    padding: 1vh 2vw 1vh 2vw;
+    cursor: pointer;
+    margin: 2vh;
+    border-radius: 1vh;
+  }
